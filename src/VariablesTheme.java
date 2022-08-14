@@ -22,8 +22,6 @@ public class VariablesTheme {
         System.out.println("2. Расчет стоимости товара со скидкой");
         int book_price = 200;
         int pen_price = 100;
-        int discount = 11;
-        double i = (100 - discount) / 100;
-        System.out.println((book_price + pen_price) /i );
+        System.out.println((book_price + pen_price) * 0.89 );
     }
 }
